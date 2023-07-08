@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mozambique</title>
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+</head>
+
+<body> 
+    <main>
+        <article class="staaf">
+            <h2>Withholding tax rates in Mozambique’s DTA Network</h2>
+            <p>As shown, all of Mozambique’s DTAs include rates lower than its domestic tax law (20%), reducing the amount it can tax foreign MNCs operating within its borders</p>
+            <ul class="legenda">
+                <li>Dividends</li>
+                <li>Interests</li>
+                <li>Royalties</li>
+            </ul>
+            <svg id="ratesgraphic"></svg>
+            <ul>
+                <li><button id="india" autofocus>India</button></li>
+                <li><button id="italy">Italy</button></li>
+                <li><button id="macau">Macau</button></li>
+                <li><button id="mauritius">Mauritius</button></li>
+                <li><button id="southafrica">South Africa</button></li>
+                <li><button id="uae">UAE</button></li>
+                <li><button id="vietnam">Vietnam</button></li>
+                <li><button id="portugal">Portugal</button></li>
+                <li><button id="botswana">Botswana</button></li>
+            </ul>
+            
+        </article>
+        <article class="kaart">
+            <h2>Mozambique’s tax treaty network and their losses</h2>
+            <h3>Losses an estimated $ 1.4 billion in tax revenue through WHT avoidance via treaty shopping</h3>
+            <ul class="legenda">
+                <li>Tax treaty</li>
+                <li>Not ratified yet</li>
+                <li>In negotiation</li>
+            </ul>
+            <svg id="map"></svg>
+        </article>
+
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <script type="module" src="./scripts/main.js"></script>
+
+    </main>
+</body>
+
+</html>
